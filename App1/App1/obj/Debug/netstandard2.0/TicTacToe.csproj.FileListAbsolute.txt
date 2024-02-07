@@ -1,0 +1,15 @@
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\bin\Debug\netstandard2.0\TicTacToe.deps.json
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\bin\Debug\netstandard2.0\TicTacToe.dll
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\bin\Debug\netstandard2.0\ref\TicTacToe.dll
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\bin\Debug\netstandard2.0\TicTacToe.pdb
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.csproj.AssemblyReference.cache
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.AssemblyInfoInputs.cache
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.AssemblyInfo.cs
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.csproj.CoreCompileInputs.cache
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.dll
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\refint\TicTacToe.dll
+D:\Users\Артемий\VSProj\XamarinTicTacToe\App1\App1\obj\Debug\netstandard2.0\TicTacToe.pdb

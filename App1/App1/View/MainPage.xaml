@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage"
+             xmlns:local="clr-namespace:App1.ViewModel">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Grid x:Name="GameBoard" WidthRequest="300" HeightRequest="300">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="cell0" Grid.Row="0" Grid.Column="0" Command="{Binding CellClickCommand}" CommandParameter="0" 
+                    TextColor="{Binding Cells[0].Color}" Text="{Binding Cells[0].Marker}"/>
+            <Button x:Name="cell1" Grid.Row="0" Grid.Column="1" Command="{Binding CellClickCommand}" CommandParameter="1" 
+                    TextColor="{Binding Cells[1].Color}" Text="{Binding Cells[1].Marker}"/>
+            <Button x:Name="cell2" Grid.Row="0" Grid.Column="2" Command="{Binding CellClickCommand}" CommandParameter="2" 
+                    TextColor="{Binding Cells[2].Color}" Text="{Binding Cells[2].Marker}"/>
+
+            <Button x:Name="cell3" Grid.Row="1" Grid.Column="0" Command="{Binding CellClickCommand}" CommandParameter="3" 
+                    TextColor="{Binding Cells[3].Color}" Text="{Binding Cells[3].Marker}"/>
+            <Button x:Name="cell4" Grid.Row="1" Grid.Column="1" Command="{Binding CellClickCommand}" CommandParameter="4" 
+                    TextColor="{Binding Cells[4].Color}" Text="{Binding Cells[4].Marker}"/>
+            <Button x:Name="cell5" Grid.Row="1" Grid.Column="2" Command="{Binding CellClickCommand}" CommandParameter="5" 
+                    TextColor="{Binding Cells[5].Color}" Text="{Binding Cells[5].Marker}"/>
+
+            <Button x:Name="cell6" Grid.Row="2" Grid.Column="0" Command="{Binding CellClickCommand}" CommandParameter="6" 
+                    TextColor="{Binding Cells[6].Color}" Text="{Binding Cells[6].Marker}"/>
+            <Button x:Name="cell7" Grid.Row="2" Grid.Column="1" Command="{Binding CellClickCommand}" CommandParameter="7" 
+                    TextColor="{Binding Cells[7].Color}" Text="{Binding Cells[7].Marker}"/>
+            <Button x:Name="cell8" Grid.Row="2" Grid.Column="2" Command="{Binding CellClickCommand}" CommandParameter="8" 
+                    TextColor="{Binding Cells[8].Color}" Text="{Binding Cells[8].Marker}"/>
+            
+        </Grid>
+
+        <Label Text="{Binding CurrentPlayerTurnLabel}" />
+    </StackLayout>
+
+</ContentPage>
